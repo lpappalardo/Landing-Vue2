@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Adoption App</title>
+</head>
+<body>
+
+    <div id="app">
+        <header class="fondo-principal">
+            <div class="container encabezado">
+                <img src="./img/logo.png" alt="Logo Adoption App">
+                <navbar></navbar>
+            </div>
+        </header>
+
+        <router-view></router-view>
+        
+        <footer class="fondo-principal">
+            <div class="footerWeb container">
+                <div class="footerWeb-elements">
+                    <img src="./img/logo.png" alt="Logo Adoption App">
+                    <nav class="navegacion centrar">
+                        <ul>
+                            <li class="item centrar"><a href="#"><img class="redSocial" src="./img/facebook.png" alt="Facebook"></a></li>
+                            <li class="item centrar"><a href="#"><img class="redSocial" src="./img/instagram.png" alt="Instagram"></a></li>
+                            <li class="item centrar"><a href="#"><img class="redSocial" src="./img/twitter.png" alt="Twitter"></a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <hr>
+                <p class="centrar">Hecho por Lautaro Pappalardo &copy; 2023</p>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.7.14/vue.min.js" integrity="sha512-BAMfk70VjqBkBIyo9UTRLl3TBJ3M0c6uyy2VMUrq370bWs7kchLNN9j1WiJQus9JAJVqcriIUX859JOm12LWtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://unpkg.com/vue-router@3/dist/vue-router.js"></script>
+
+    <script src="./index.js"></script>
+</body>
+</html>
